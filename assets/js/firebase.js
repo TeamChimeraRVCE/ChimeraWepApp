@@ -1,13 +1,14 @@
 var firebaseConfig = {
-  apiKey: "AIzaSyAHiMS4LbYNYJ4C3UqUJg2TaJmYhOW4wAo",
-  authDomain: "myawsomeprp.firebaseapp.com",
-  databaseURL: "https://myawsomeprp.firebaseio.com",
-  projectId: "myawsomeprp",
-  storageBucket: "myawsomeprp.appspot.com",
-  messagingSenderId: "554524844988",
-  appId: "1:554524844988:web:501b413d16f0b871ef41b9",
-  measurementId: "G-8BR8BH24YH",
+  apiKey: "AIzaSyAouNkJDpbOLW1SIgiwNctG-lUF8fyl5lM",
+  authDomain: "chimwebapp.firebaseapp.com",
+  databaseURL: "https://chimwebapp-default-rtdb.firebaseio.com",
+  projectId: "chimwebapp",
+  storageBucket: "chimwebapp.appspot.com",
+  messagingSenderId: "857403803062",
+  appId: "1:857403803062:web:9b191f8c2d2bd01fbeed17",
+  measurementId: "G-FRBD03BY69"
 };
+// I
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
@@ -71,12 +72,7 @@ BatData.on("child_added", function (snapshot, prevChildKey) {
   document.getElementById("b22").innerHTML = newVal.b22;
   document.getElementById("b23").innerHTML = newVal.b23;
   document.getElementById("b24").innerHTML = newVal.b24;
-  document.getElementById("b25").innerHTML = newVal.b25;
-  document.getElementById("b26").innerHTML = newVal.b26;
-  document.getElementById("b27").innerHTML = newVal.b27;
-  document.getElementById("b28").innerHTML = newVal.b28;
-  document.getElementById("b29").innerHTML = newVal.b29;
-  document.getElementById("b30").innerHTML = newVal.b30;
+
 
   document.getElementById("t1").innerHTML = newVal.t1;
   document.getElementById("t2").innerHTML = newVal.t2;
@@ -90,6 +86,18 @@ BatData.on("child_added", function (snapshot, prevChildKey) {
   document.getElementById("t10").innerHTML = newVal.t10;
   document.getElementById("t11").innerHTML = newVal.t11;
   document.getElementById("t12").innerHTML = newVal.t12;
+  document.getElementById("t13").innerHTML = newVal.t13;
+  document.getElementById("t14").innerHTML = newVal.t14;
+  document.getElementById("t15").innerHTML = newVal.t15;
+  document.getElementById("t16").innerHTML = newVal.t16;
+  document.getElementById("t17").innerHTML = newVal.t17;
+  document.getElementById("t18").innerHTML = newVal.t18;
+  document.getElementById("t19").innerHTML = newVal.t19;
+  document.getElementById("t20").innerHTML = newVal.t20;
+  document.getElementById("t21").innerHTML = newVal.t21;
+  document.getElementById("t22").innerHTML = newVal.t22;
+  document.getElementById("t23").innerHTML = newVal.t23;
+  document.getElementById("t24").innerHTML = newVal.t24;
 
   //console.log("Title: " + newPost.title);
   // console.log("Previous Post ID: " + prevChildKey);
